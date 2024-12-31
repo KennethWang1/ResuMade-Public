@@ -1,0 +1,16 @@
+Day 0:
+Started the project, set up the front and backend, and made a bit of progress.
+
+Day 1-4:
+Create a basic landing page (Yes, I have been slacking)
+Problems:
+BrowserRouter having issues (Cannot read properties of null (reading 'useRef'))
+Solution:
+Cleaned node packages, goofed around with the structure (tbh idk what fixed it)
+
+Day 5-6:
+Creating the Signup and Login pages.
+Problems:
+Buttons won't redirect properly.
+Solution:
+Using react link elements styled as buttons

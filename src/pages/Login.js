@@ -2,16 +2,22 @@ import './css/Login.css';
 
 function Login() {
   return (
-    <div username = "signup" id = "signup">
-      <form action="http://localhost:3001/api/signup" method="POST">
-        <label className="username">Username</label>
-        <input name = "username" type="text" className="username" id="username" value = "yum"/>
+    <div username = "signup-container" id = "signup-container">
+      <h1 className='login-title' id = 'login-title'>Sign In</h1>
+      <form action="http://localhost:3001/api/login" method="POST" style={{position: 'relative',top: '4vh', alignSelf: 'center', display: 'flex', flexDirection: 'column', alignItems: 'center'}}>
+        <div style={{paddingBottom: '10px'}}>
+          <label className="username" id = 'username-label'>Email: </label>
+          <input name = "email" type="email" className="username" id="username" value = ""/>
+        </div>
 
-        <label className="password">Password</label>
-        <input name = "password" type="password" className="password" id="password" value = "yum^2"/>
+        <div style={{padding: '10px'}}>
+          <label className="password" id = 'password-label'>Password: </label>
+          <input name = "password" type="password" className="password" id="password" value = ""/>
+        </div>
 
-        <button id="submitbutton">Register</button>
+        <button id="submitbutton">Login</button>
       </form>
+      <h4 id = 'signup-link' className='signup-link'>Don't have an account? <a href='./signup' style={{textDecoration: 'underline', cursor: 'pointer', color: 'var(--tertiary)'}}>Sign up Here!</a></h4>
     </div>
   );
 }

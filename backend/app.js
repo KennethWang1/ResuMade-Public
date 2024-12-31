@@ -11,7 +11,7 @@ const path = require('path');
 // Increase max listeners limit
 require('events').EventEmitter.defaultMaxListeners = 15;
 
-const port = process.env.PORT || 3002;
+const port = process.env.PORT || 3001;
 app.use(bodyParser.urlencoded({ extended: true }));
 
 app.get('/test', (req, res) => {

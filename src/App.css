@@ -1,0 +1,16 @@
+:root{
+    --primary:#677BAB;
+    --secondary:#CAF0F6;
+    --tertiary:#03045E;
+    --hue1: #A9C9DD;
+    --hue2: #88A2C4;
+    --hue3: #475492;
+    --white :#ffffff;
+}
+
+html * {
+  font-family: "DM Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}

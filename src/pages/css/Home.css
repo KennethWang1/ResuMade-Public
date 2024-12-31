@@ -1,0 +1,137 @@
+header{
+    position: fixed;
+    top: 2vh;
+    left: 2vw;
+    width: 96vw;
+    height: 6vh;
+    background-color: var(--secondary);
+    border-radius: 5px;
+    display: flex;
+    justify-content: left;
+    text-align: center;
+    align-items: center;
+}
+
+.signup{
+    margin: 5px;
+    margin-bottom: 6px;
+    border: 0px;
+    width:5vw;
+    height: 4vh;
+    position: relative;
+    border-radius: 5px;
+    align-self: right;
+    background-color: var(--tertiary);
+    color:var(--white);
+    box-shadow: 0px 2px 2px #00000033;
+}
+
+.signup:hover{
+    margin-top: 4px;
+    margin-bottom: 7px;
+    box-shadow: 0px 2px 2px #0000006f;
+}
+
+.login{
+    margin: 5px;
+    margin-left: auto;
+    margin-bottom: 6px;
+    border: 0px;
+    width:5vw;
+    height: 4vh;
+    position: relative;
+    border-radius: 5px;
+    align-self: right;
+    background-color: var(--white);
+    color:var(--tertiary);
+    box-shadow: 0px 2px 2px #00000033;
+    
+}
+
+.login:hover{
+    margin-top: 4px;
+    margin-bottom: 7px;
+    box-shadow: 0px 2px 2px #0000006f;
+}
+
+.divider{
+    position: relative;
+    margin-left: 15px;
+    margin-right: 15px;
+    width: 1px;
+    height: 4vh;
+    background-color: var(--tertiary);
+}
+
+h4{
+    position: relative;
+    display: block;
+    padding: 0px;
+    margin: 0px;
+    margin-left: 5px;
+    margin-right: 5px;
+    text-align: center;
+    padding-top: auto;
+    padding-bottom: auto;
+    align-self: left;
+    color: var(--hue3);
+}
+
+.title{
+    margin-left: 20px;
+    color:var(--tertiary);
+}
+
+.body{
+    position: relative;
+    top: 20vh;
+    left: 20vw;
+    width: 60vw;
+    height: 110vh;
+    background-color: var(--white);
+    border-radius: 10px;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+#resume-title{
+    padding-top: 50px;
+    font-size: 40px;
+    text-align: center;
+    color: var(--tertiary);
+}
+
+#resume-subtitle{
+    padding: 20px;
+    padding-top: 5px;
+    font-size: 24px;
+    text-align: center;
+    color: var(--hue3);
+}
+
+#start-now{
+    position: relative;
+    width: 10vw;
+    height: 5vh;
+    background-color: var(--white);
+    text-align: center;
+    text-decoration: none;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5px;
+    border-width: 0px;
+    color: var(--tertiary);
+}
+
+a{
+    text-decoration: none;
+    cursor: default;
+    color: var(--hue3);
+}
+
+a:hover{
+    text-decoration: none;
+    cursor: default;
+}

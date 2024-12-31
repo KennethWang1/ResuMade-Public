@@ -1,14 +1,16 @@
 import pg from 'pg';
-import dotenv from 'dotenv';
-dotenv.config()
+require('dotenv').config()
 const { Client } = pg;
 const { Pool } = pg;
 
+console.log(String(process.env.DB_PASSWORD));
+
 const pool = new Pool({
+  host: 'localhost',
   user: 'postgres',
   database: 'postgres',
+  port: 5432,
   password: String(process.env.DB_PASSWORD), // Convert to string
-  port: 5432
 });
 
 

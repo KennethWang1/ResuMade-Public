@@ -1,13 +1,19 @@
 import './App.css';
-import Header from './pages/Header.js';
 import EditPortfolio from './pages/Dashboard.js';
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Home from './pages/Home.js';
+import Signup from './pages/Signup.js';
+import Login from './pages/Login.js';
 
 function App() {
-  return (
-    <div className = "display" id = "display">
-      <Header/>
-      <EditPortfolio/>
-    </div>
+  return (  
+    <Router>
+      <Routes>
+        <Route path = "/" element = {<Home/>}/>
+        <Route path = "/signup" element = {<Signup/>}/>
+        <Route path = "/login" element = {<Login/>}/>
+      </Routes>
+    </Router>
   );
 }
 
