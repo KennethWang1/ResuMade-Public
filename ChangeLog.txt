@@ -1,0 +1,65 @@
+<<<<<<< HEAD
+Day 0:
+Started the project, set up the front and backend, and made a bit of progress.
+
+Day 1-4:
+Create a basic landing page (Yes, I have been slacking)
+Problems:
+BrowserRouter having issues (Cannot read properties of null (reading 'useRef'))
+Solution:
+Cleaned node packages, goofed around with the structure (tbh idk what fixed it)
+
+Day 5-6:
+Creating the Signup and Login pages.
+Problems:
+Buttons won't redirect properly.
+Solution:
+Using react link elements styled as buttons
+=======
+Day 0:
+Started the project, set up the front and backend, and made a bit of progress.
+
+Day 1-4:
+Create a basic landing page (Yes, I have been slacking)
+Problems:
+BrowserRouter having issues (Cannot read properties of null (reading 'useRef'))
+Solution:
+Cleaned node packages, goofed around with the structure (tbh idk what fixed it)
+
+Day 5-6:
+Creating the Signup and Login pages.
+Problems:
+Buttons won't redirect properly.
+Solution:
+Using react link elements styled as buttons
+
+Day 7-9:
+Creating sign up and login backend.
+Problems:
+.env issues and postgres issues
+cors issues
+Solution:
+use common js and fix minor bugs
+installed cors for node and configured it
+
+Day 10-12?
+Adding token based authentication. 
+Problems:
+Methods not returning tokens properly.
+Solution:
+Proper implementation of async and await.
+
+Day ??? (I lost track of time):
+Bug fixes, small aesthetic changes, dockerized frontend and backend, added a nginx reverse-proxy, networked it all with docker compose and debugged it all
+problems:
+idk how to use docker compose and nginx
+solution:
+a lot of learning and bug fixing (and adding the backend to the network)
+
+Hosting the website on a raspberry pi 
+Problems:
+Windows and linux are different and so is docker on both
+Solutions:
+A lot of google searching
+More for myself but to access a db in a container follow :(https://medium.com/@aedemirsen/execute-sql-commands-at-postgresql-db-startup-with-docker-2be0abadec48)
+>>>>>>> master
