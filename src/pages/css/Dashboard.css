@@ -1,0 +1,126 @@
+#skillList {
+    /* Add styles if needed */
+}
+
+#dashboard-header {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--primary1);
+    height:5vh;
+    width:95vw;
+    top:2vh;
+    left:2.5vw;
+    border-radius: 20px;
+    border-width: 1px;
+    border-color: var(--primary4);
+    border-style: solid;
+}
+
+.dashboard-headers {
+    position: relative;
+    display: block;
+    color: var(--hue9);
+    margin: 0 5vw; /* Increased margin to add more space between headers */
+    cursor: pointer;
+
+}
+
+a {
+    color: var(--hue9);
+}
+
+#username{
+    position: absolute;
+    right: 0;
+    color: var(--hue9);
+}
+
+#sidebar{
+    position: fixed;
+    right:0;
+    background-color: var(--hue1);
+    width:20vw;
+    height: 100vh;
+    top:0vh;
+    border-width: 0px;
+    border-left: 1px;
+    border-color: var(--hue9);
+    border-style: solid;
+    text-align: center;
+}
+
+.sidebar-headers {
+    position: relative;
+    display: block;
+    color: var(--hue9);
+    margin: 3vh 0; /* Increased margin to add more space between headers */
+    cursor: pointer;
+    padding: 1vw;
+    width:18vw;
+}
+
+h3{
+    color:var(--hue8);
+}
+
+#main-body {
+    position: fixed;
+    display: block;
+    left: 3vw;
+    border: 1px solid var(--hue4);
+    border-radius: 10px;
+    width: 94vw;
+    height: 85vh;
+    bottom: 5vh;
+    overflow: hidden;
+    top: 60px; /* Adjust top position to account for the fixed toolbar */
+}
+
+#load-pdf{
+    position: fixed;
+    display: block;
+    right: 0px;
+    bottom: 0px;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0,0,0,.5);
+}
+
+.edit-bar-icon {
+    background-color: var(--primary3); /* Change icon background color */
+    transition: background-color 0.3s; /* Add transition for hover effect */
+}
+
+.edit-bar-icon:hover {
+    background-color: var(--primary4); /* Change icon background color on hover */
+}
+
+#toolbar {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    background-color: var(--hue2);
+    border-bottom: 1px solid var(--hue4);
+    z-index: 101; /* Ensure the toolbar is above other content */
+    width: 100%; /* Make it span the full width */
+    position: fixed; /* Fix the toolbar at the top */
+    top: 0; /* Align it to the top */
+}
+
+.toolbar-button {
+    margin: 0 5px;
+    padding: 10px 20px;
+    background-color: var(--hue1);
+    border: none;
+    border-radius: 5px;
+    color: var(--hue4);
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.toolbar button:hover {
+    background-color: var(--primary4);
+}
+

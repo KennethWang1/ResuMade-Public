@@ -1,0 +1,47 @@
+:root {
+    --primary1: #C1FFBF;
+    --primary2: #9FF79C;
+    --primary3: #7DF279;
+    --primary4: #46ED40;
+    --primary5: #34E52E;
+    --primary6: #24CC1F;
+    --primary7: #17B212;
+    --primary8: #0E800A;
+    --primary9: #064D04;
+    --hue1: #ffffff;
+    --hue2: #EDEDED;
+    --hue3: #DEDEDE;
+    --hue4: #D1D1D1;
+    --hue5: #B3B3B3;
+    --hue6: #999999;
+    --hue7: #808080;
+    --hue8: #595959;
+    --hue9: #000000;
+}
+
+html * {
+    font-family: "DM Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h1{
+    font-size:40px;
+}
+
+h2{
+    font-size:32px;
+}
+
+h3{
+    font-size:24px;
+}
+
+h4{
+    font-size:16px;
+}
+
+html, body {
+    overflow: hidden;
+}
