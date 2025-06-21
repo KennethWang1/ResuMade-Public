@@ -1,3 +1,3 @@
 echo backend
 cd ./ResuMade
-nodemon  -w . -w .env ./backend/app
+nodemon  --env-file ./backend/.env ./backend/app.js

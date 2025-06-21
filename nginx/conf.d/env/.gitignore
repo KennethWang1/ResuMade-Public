@@ -10,8 +10,6 @@
 /env
 .pem
 .key
-/.vscode
-init.sql
 
 # testing
 /coverage
